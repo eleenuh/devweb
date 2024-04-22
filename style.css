@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* White text color */
+    line-height: 1.6; /* Adjust line spacing */
+}
+
+body {
+    padding: 40px; /* Padding around the content */
+}
+
+.container {
+    max-width: 600px; /* Set a max-width for the content */
+    margin: 0 auto; /* Center the container */
+}
+
+header, .projects, .education, nav, footer {
+    margin-bottom: 20px; /* Space between sections */
+}
+
+header h1, header p, .projects h2, .projects p, .education h2, .education p, footer p {
+    margin: 0 0 10px 0; /* Add some space at the bottom of each element */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets from list */
+    padding: 0; /* Remove padding */
+    overflow: hidden; /* Clear floats */
+    margin: 10px 0; /* Margin top and bottom for the nav */
+}
+
+nav ul li {
+    display: inline; /* Inline display for nav items */
+    margin-right: 20px; /* Margin between nav items */
+}
+
+nav a {
+    color: #4fa1f3; /* Blue color for links */
+    text-decoration: none;
+}
+
+footer {
+    text-align: center; /* Center align footer content */
+    font-size: 0.8em;
+    margin-top: 40px; /* Space from the last content section to the footer */
+    color: #aaa; /* Light gray color for footer */
+}
+
+body, nav, header, .projects, .education {
+    font-family: 'Source Code Pro', monospace;
+}
+
